@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PetCare</string>
+    <string name="first_pet">First Pet</string>
+    <string name="title_activity_pet1">First Pet</string>
+    <string name="second_pet">Second Pet</string>
+</resources>
