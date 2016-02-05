@@ -1,13 +1,13 @@
 package com.example.mitchell.petcare;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class Pet1 extends AppCompatActivity {
+public class pet3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pet1);
+        setContentView(R.layout.activity_pet3);
     }
 }

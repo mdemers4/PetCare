@@ -10,22 +10,49 @@
     tools:context="com.example.mitchell.petcare.MainActivity">
 
     <Button
+        android:text= "@string/first_pet"
         android:layout_width="170dp"
         android:layout_height="100dp"
         android:id = "@+id/pet1"
-        android:text= "@string/first_pet"
         android:layout_alignTop="@+id/pet2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
+        android:text= "@string/second_pet"
         android:layout_width="170dp"
         android:layout_height="100dp"
         android:id = "@+id/pet2"
-        android:text= "@string/second_pet"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="147dp" />
+
+    <Button
+        android:text= "@string/third_pet"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:id = "@+id/pet3"
+        android:layout_below="@+id/pet1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text= "@string/forth_pet"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:id = "@+id/pet4"
+        android:layout_alignTop="@+id/pet3"
+        android:layout_alignRight="@+id/pet2"
+        android:layout_alignEnd="@+id/pet2" />
+
+    <android.support.v4.view.ViewPager
+        android:id= "@+id/pager"
+        android:layout_height = "140dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/pet3"
+        android:layout_alignRight="@+id/pet4"
+        android:layout_alignEnd="@+id/pet4">
+    </android.support.v4.view.ViewPager>
 
 </RelativeLayout>

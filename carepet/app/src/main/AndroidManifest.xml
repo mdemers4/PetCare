@@ -17,12 +17,20 @@
         </activity>
         <activity
             android:name=".Pet1"
-            android:label="@string/title_activity_pet1"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity"
-            >
-
-        </activity>
+            android:label="@string/first_pet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pet2"
+            android:label="@string/second_pet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pet3"
+            android:label="@string/third_pet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pet4"
+            android:label="@string/second_pet"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
