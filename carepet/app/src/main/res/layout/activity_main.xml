@@ -9,6 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mitchell.petcare.MainActivity">
 
+
     <Button
         android:text= "@string/first_pet"
         android:layout_width="170dp"
@@ -54,5 +55,57 @@
         android:layout_alignRight="@+id/pet4"
         android:layout_alignEnd="@+id/pet4">
     </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/userinput"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:width="300dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/deleteButton"
+        android:layout_below="@+id/userinput"
+        android:layout_alignLeft="@+id/pet2"
+        android:layout_alignStart="@+id/pet2"
+        android:singleLine="false"
+        android:onClick="deleteButtonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/addButton"
+        android:layout_below="@+id/userinput"
+        android:layout_alignLeft="@+id/userinput"
+        android:layout_alignStart="@+id/userinput"
+        android:singleLine="true"
+        android:onClick="addButtonClicked" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/userText"
+        android:layout_below="@+id/deleteButton"
+        android:layout_toRightOf="@+id/addButton"
+        android:layout_toEndOf="@+id/addButton" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@mipmap/ic_plus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pager"
+        android:layout_alignEnd="@+id/pager" />
 
 </RelativeLayout>

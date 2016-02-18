@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Pet Details"
+            android:id="@+id/details"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Name of Pet"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/Name"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:id="@+id/editname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Type of Pet"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/Typeofpet"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/pet_type"
+
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"
+            android:layout_width="150dp"/>
+
+        <Button
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/save" />
+
+    </LinearLayout>
+</RelativeLayout>

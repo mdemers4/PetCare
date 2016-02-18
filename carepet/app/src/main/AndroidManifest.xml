@@ -30,7 +30,13 @@
         <activity
             android:name=".Pet4"
             android:label="@string/second_pet"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddActivity"
+            android:label="@string/title_activity_add"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>
